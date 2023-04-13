@@ -102,7 +102,7 @@
 
 .login-username {
     width: 100%;
-    margin: 0px 0px 0px -6px;
+    margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
 
 
@@ -249,7 +249,7 @@
 
 body {
     /* background-color:#f8f9fa; */
-    background-image: url(0PxyBf.jpg);
+    background-image: url(media/images/bodybackground.jpg);
 }
 
 
@@ -486,7 +486,7 @@ border-top-right-radius: 20px;
 .event-create-User-namebox {
     padding: 5px 0px 5px 14px;
     margin: 0px 0px 18px 0px;
-    width: 60%;
+    width: 83%;
     border-radius: 0.25rem;
 
     border-color: #212529;
@@ -500,6 +500,7 @@ border-top-right-radius: 20px;
     margin-top: 12px;
     padding: 1px 0px 0px 5px;
     text-align: justify;
+
 
 }
 
@@ -552,22 +553,24 @@ border-top-right-radius: 20px;
 }
 
 .btnaddevent {
+    position: relative;
     border: none;
     width: 106px;
     border-radius: 20px;
     padding: 8px 8px 8px 8px;
-    margin: 44px 0px -1px 132px;
+    margin: 44px 0px -1px 193px;
+
 
 }
 
 .adddtn {
     border: none;
-    top: 80px;
+    top: 32px;
     position: absolute;
     width: 131px;
     border-radius: 20px;
     padding: 8px;
-    margin: -6px 10px 10px 430px;
+    /* margin: 0px 0px 0px 461px; */
 }
 
 /* create event form */
@@ -603,8 +606,9 @@ border-top-right-radius: 20px;
     height: 864px;
     margin-top: 68px;
     margin-left: -218px;
-
+    border-radius: 20px;
     text-align: justify;
+    background-image: url(media/images/bodybackground.jpg);
 
 }
 
@@ -630,17 +634,18 @@ border-top-right-radius: 20px;
 
 .create-event-modal .modal-content {
     margin-top: 20% !important;
-    background-image: url(0PxyBf.jpg) !important;
+    background-image: url(media/images/bodybackground.jpg) !important;
     color: black !important;
     z-index: 999;
-    width: 100%;
+    width: 125%;
     height: 800px;
+    border-radius: 20px;
     padding: 10px 10px 10px 10px;
 }
 
 .carousel-item {
     width: 100%;
-    height: 666px;
+    height: 90vh;
     justify-content: center;
     align-items: center;
 
@@ -656,22 +661,24 @@ border-top-right-radius: 20px;
 
 .category-box {
     width: 100%;
-    height: 200px;
+    height: 320px;
     justify-content: center;
     align-items: center;
     position: relative;
-    padding: 11px 0px 0px 246px;
-    margin: 0px 0px 0px 0px;
+    padding: 42px 0px 0px 265px;
+    margin: 47px 0px 0px 7px;
+    bottom: 60px;
+    place-items: center;
 }
 
 
 .box1 {
-    width: 52%;
-    height: 125px;
+    width: 250px;
+    height: 250px;
     border: 1px solid black;
     border-radius: 20%;
     text-align: center;
-    background-image: url(11.jpg);
+    background-image: url(media/images/11.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     font-weight: bold;
@@ -681,12 +688,12 @@ border-top-right-radius: 20px;
 }
 
 .box2 {
-    width: 52%;
-    height: 125px;
+    width: 250px;
+    height: 250px;
     border: 1px solid black;
     border-radius: 20%;
     text-align: center;
-    background-image: url(22.jpg);
+    background-image: url(media/images/22.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     font-weight: bold;
@@ -694,14 +701,14 @@ border-top-right-radius: 20px;
 }
 
 .box3 {
-    width: 52%;
-    height: 125px;
+    width: 250px;
+    height: 250px;
     border: 1px solid black;
     border-radius: 20%;
     text-align: center;
     justify-content: center;
     padding: 10px 10px 10px 10px;
-    background-image: url(3333.webp);
+    background-image: url(media/images/3333.webp);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     font-weight: bold;
@@ -714,7 +721,7 @@ border-top-right-radius: 20px;
     color: white;
     width: 50%;
     padding: 0px 0px 0px 0px;
-    margin: 42px 0px 2px 72px;
+    margin: 90px 0px 2px 67px;
     font-weight: bold;
 }
 
@@ -724,7 +731,7 @@ border-top-right-radius: 20px;
     color: white;
     width: 50%;
     padding: 0px 0px 0px 0px;
-    margin: 42px 0px 2px 72px;
+    margin: 90px 0px 2px 67px;
     font-weight: bold;
 }
 
@@ -732,9 +739,9 @@ border-top-right-radius: 20px;
     border: 1px solid #80808070;
     background-color: #80808070;
     color: white;
-    width: 50%;
+    width: 55%;
     padding: 0px 0px 0px 0px;
-    margin: 32px 0px 2px 68px;
+    margin: 75px 0px 2px 52px;
     font-weight: bold;
 
 }
@@ -790,14 +797,24 @@ border-top-right-radius: 20px;
 
 }
 
-@media (max-width:768px) {
+@media only screen and (max-width:768px) {
     .loginbtn {
         padding: 3px 0px;
-        margin: 3px 3px -8px -38px;
+        margin: 3px 3px -8px -29px;
     }
 
     .form-control {
         width: 77%;
+    }
+
+
+    .nav-link {
+        margin: 0px 11px;
+    }
+
+    .form-control {
+        width: 67%;
+        margin: 0px 10px;
     }
 
     .formbox {
@@ -814,6 +831,7 @@ border-top-right-radius: 20px;
 
         padding: 11px 0px 36px 204px;
         height: 69px;
+        width: 130%;
     }
 
 
@@ -824,15 +842,24 @@ border-top-right-radius: 20px;
         align-items: center;
     }
 
-    /* .carousel-item {
-        width: 100%;
-        height: 751px;
+    .create-event-modal .modal-content {
+        margin-top: 20% !important;
+
+        width: 125%;
+        height: 800px;
+
+        padding: 10px 10px 10px 10px;
         justify-content: center;
-        align-items: center;
-    } */
+        margin: 0px -62px;
+    }
+
+    .carousel-item {
+        width: 100%;
+        height: 88vh;
+    }
 
     #firstfooter {
-        height: 52px;
+        height: 63px;
     }
 
     .btnaddevent {
@@ -853,20 +880,79 @@ border-top-right-radius: 20px;
     }
 
     .adddtn {
-        margin: 46px 0px -1px 142px;
+        margin: 91px 0px -1px 193px;
     }
 
     .footer {
         padding: 7px 4px 56px 10px;
     }
 
+    .category-box {
+        width: 100%;
+        height: 600px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        padding: 42px 0px 0px 265px;
+        margin: 47px 0px 0px 7px;
+        bottom: 60px;
+        place-items: center;
+    }
 
+    .box1 {
+        margin: 3px 7px;
+        width: 38%;
+        height: 174px;
+
+    }
+
+
+    .box2 {
+        margin: 3px 7px;
+        width: 38%;
+        height: 174px;
+    }
+
+    .box3 {
+        margin: 3px 7px;
+        width: 38%;
+        height: 174px;
+    }
+
+    .s1 {
+
+        width: 60%;
+        padding: 0px 0px 0px 0px;
+        margin: 64px 0px 0px 38px;
+        font-weight: bold;
+
+    }
+
+
+    .s2 {
+        width: 60%;
+        padding: 0px 0px 0px 0px;
+        margin: 64px 0px 0px 38px;
+        font-weight: bold;
+    }
+
+    .s3 {
+        width: 79%;
+        padding: 0px 0px 0px 0px;
+        margin: 48px 0px 0px 17px;
+        font-weight: bold;
+    }
 
 }
 
-@media (max-width:400px) {
+
+
+
+
+/* ---------------------------------------------------------------- */
+@media screen and (max-width:400px) {
     .adddtn {
-        margin: 98px 0px 0px 27px;
+        margin: 140px 0px 0px 27px;
     }
 
     #firstfooter {
@@ -876,20 +962,35 @@ border-top-right-radius: 20px;
     }
 
     .create-event-modal .modal-content {
-        width: 366px;
+        width: 347px;
+        margin: 14px;
+        height: 628px;
+        top: -51px;
     }
 
-    .event-create-User-namebox {
-        padding: 5px 0px 5px 14px;
-        margin: 0px 0px 18px 0px;
-        width: 89%;
+
+
+
+
+    #textareacol {
+        max-height: 195px;
+        height: 100px;
     }
 
     .modal-content-new {
         background-color: #f8f9fa;
-        width: 374px;
-        height: 1358px;
-        margin: 0px;
+        width: 96%;
+        height: 732px;
+        margin: 7px;
+    }
+
+    .modal-contenteventform {
+
+        margin-top: -14px;
+    }
+
+    .eventhead {
+        font-size: medium;
     }
 
     .Visitors-table {
@@ -899,62 +1000,175 @@ border-top-right-radius: 20px;
     }
 
     .category-box {
-        padding: 0px 0px 0px 132px;
+        padding: 0px 0px 0px 125px;
+        margin: 83px 0px 0px 2px;
+        bottom: 76px;
+        height: 390px;
     }
 
     .s1 {
-        margin: 23px 0px 2px 7px;
-        width: 83%;
+        margin: 31px 0px 2px 7px;
+        width: 90%;
+        font-size: small;
     }
 
+
     .s2 {
-        margin: 22px 0px 2px 3px;
+        margin: 35px 0px 2px 11px;
         width: 83%;
     }
 
     .s3 {
-        margin: 0px 0px 2px 9px;;
-        width: 83%;
+        margin: 25px 12px 2px -6px;
+        width: 110%;
+
     }
 
     .box1 {
-        margin: 11px 0px;
-        width: 48%;
-        height: 97px;
+        margin: 4px 0px;
+        width: 134px;
+        height: 120px;
     }
 
+
     .box2 {
-        margin: 11px 0px;
-        width: 48%;
-        height: 97px;
+        margin: 4px 0px;
+        width: 134px;
+        height: 120px;
+
     }
 
     .box3 {
-        margin: 11px 0px;
-        width: 48%;
-        height: 97px;
+        margin: 4px 0px;
+        width: 134px;
+        height: 120px;
+
+    }
+
+    .inside-category {
+        font-weight: normal;
     }
 
     .carousel-inner {
 
-        height: 319px;
+        height: 278px;
 
     }
+
+
     .w-100 {
         height: 51%;
     }
+
     .formbox {
         width: 373px;
         margin: 0px 32px;
     }
+
+    .carousel-item {
+        height: 533px;
+    }
+
     .login {
         width: 373px;
     }
+
     .footer-header1 {
         width: 157%;
     }
-    #reg-footer{
+
+    #reg-footer {
         width: 157% !important;
     }
 
+    .nav-link {
+        margin: 0px 11px;
+
+    }
+
+    .loginbtn {
+        padding: 3px 0px;
+        margin: 3px 3px -8px -29px;
+    }
+
+    .form-control {
+        width: 67%;
+        margin: 0px 10px;
+    }
+
+    .modal-content {
+        background-color: #212529;
+        color: #f8f9fa;
+        width: 94%;
+    }
+
+    .reg-Date {
+        padding: 6px 0px 0px 22px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .User-name {
+        width: 125px;
+        padding: 5px 0px 0px 22px;
+        line-height: 1.5;
+    }
+
+    .reg-address {
+        padding: 15px 0px 6px 22px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .reg-phone {
+        padding: 13px 0px 0px 22px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .reg-Date {
+        padding: 6px 0px 0px 22px;
+        margin: 7px 0px 0px 0px;
+    }
+
+    .reg-write {
+        padding: 19px 0px 0px 22px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .create-dropdown {
+        padding: 16px 0px 23px 22px;
+        margin: 0px 0px 0px 0px;
+        line-height: 1.5;
+    }
+
+    .create-dropdown-menu {
+        padding: 0px 0px 0px 0px;
+        margin: -2px 0px 25px -4px;
+    }
+
+    .event-create-User-namebox {
+        padding: 5px 0px 5px 2px;
+        margin: 0px 0px 0px 0px;
+        width: 83%;
+
+    }
+
+    .date-eventform {
+        padding: 0px 2px 0px 16px;
+        margin: 0px 0px 20px -16px;
+        border-color: #212529;
+    }
+
+    .trekmodalimage1 {
+        width: 100%;
+        height: 252px;
+    }
+
+    .modal {
+        position: fixed;
+        top: 70px;
+        left: 0;
+    }
+
+    .popup-event-text {
+        padding: 0px 14px 0px 15px;
+    }
 }
