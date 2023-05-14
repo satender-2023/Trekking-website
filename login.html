@@ -20,7 +20,7 @@
   <div class="sticky">
     <div class="one">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <img src="media/images/trekkinglogo.jpg" alt="trekkinglogo" width="50px" height="50px">
+        <img src="media/images/trekkinglogo.jpg" alt="trekkinglogo" width="50px" height="50px" class="navbar-logo" >
         <a class="navbar-brand" href="index.html">Trekking india</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,7 +47,7 @@
                     </button>
                   </div>
                   <div class="modal-body">
-                    Our founders,started Trekking India with one simple belief — Everyone Must Trek. They wanted to do
+                    Our founders, started Trekking India with one simple belief — Everyone Must Trek. They wanted to do
                     this by bringing out information about treks, and by
                     setting the right spirit of trekking in India.
 
@@ -72,39 +72,42 @@
               <a class="nav-link" href="trekkcard.html">Events<span class="sr-only">(current)</span></a>
             </li>
 
-
-
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                Articles
+            <!-- navbar for sm and xs -->
+            <li class="nav-item dropdown d-block d-md-none">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownmobile" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Category
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown light">
-                <a class="dropdown-item" href="#">Fitness Tips</a>
-                <a class="dropdown-item" href="#">Photo Story </a>
-
-                <a class="dropdown-item" href="#">Expert Opinion</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown light">
-                <a class="dropdown-item" href="#">Our Story</a>
-                <a class="dropdown-item" href="#">The Team</a>
-
-                <a class="dropdown-item" href="#">Contact Us</a>
+                <a class="dropdown-item" href="#">All</a>
+                <a class="dropdown-item" href="#">Trekking </a>
+                <a class="dropdown-item" href="#">Camping</a>
+                <a class="dropdown-item" href="#">Road Trip</a>
               </div>
             </li>
 
-            <li class="nav-item active">
+
+
+
+
+            <li class="nav-item active d-none d-md-block d-lg-block d-xl-block">
               <a class="nav-link" href="#">What's <span class="badge badge-success">New</span></a>
             </li>
 
-
-
           </ul>
-
-
+          <form class="form-inline ">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+          <div class="loginbtn">
+            <ul>
+              <!-- <a ></a> -->
+              <a href="login.html" tabindex="0" class="btn btn-lg btn-danger" role="button" data-toggle="popover"
+                data-trigger="focus" title="Dismissible popover"
+                data-content="And here's some amazing content. It's very engaging. Right?">
+                Login</a>
+            </ul>
+          </div>
         </div>
       </nav>
     </div>
@@ -135,7 +138,7 @@
 
       </div>
       <!-- check once -->
-      <div class="footer-header1" >
+      <div class="footer-header1 " >
     <div class=" mail">Need help? call +91-88889 50537 || satenderkumar898@gmail.com</i>
       </div>
 
