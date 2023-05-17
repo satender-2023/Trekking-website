@@ -21,8 +21,8 @@
   <div class="sticky">
     <div class="one">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <img src="media/images/trekkinglogo.jpg" alt="trekkinglogo" width="50px" height="50px">
-        <a class="navbar-brand" href="#">Trekking india</a>
+        <img src="media/images/trekkinglogo.jpg" alt="trekkinglogo" width="50px" height="50px" class="navbar-logo" >
+        <a class="navbar-brand" href="index.html">Trekking india</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -68,22 +68,22 @@
 
             <!-- modal end -->
 
-            <li class="nav-item active">
+            <li class="nav-item active d-none d-md-block d-lg-block d-xl-block">
 
               <a class="nav-link" href="trekkcard.html">Events<span class="sr-only">(current)</span></a>
             </li>
 
-            <!-- navbar for sm and xs -->
+            <!-- dropdown-categories for sm and xs -->
             <li class="nav-item dropdown d-block d-md-none">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownmobile" role="button"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Category
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown light">
-                <a class="dropdown-item" href="#">All</a>
-                <a class="dropdown-item" href="#">Trekking </a>
-                <a class="dropdown-item" href="#">Camping</a>
-                <a class="dropdown-item" href="#">Road Trip</a>
+                <a class="dropdown-item" href="trekkcard.html">All</a>
+                <a class="dropdown-item" href="trekkcard.html">Trekking </a>
+                <a class="dropdown-item" href="trekkcard.html">Camping</a>
+                <a class="dropdown-item" href="trekkcard.html">Road Trip</a>
               </div>
             </li>
 
@@ -96,18 +96,19 @@
             </li>
 
           </ul>
-          <form class="form-inline ">
+          <form class="form-inline d-none d-md-block d-lg-block d-xl-block">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
           </form>
           <div class="loginbtn">
-            <ul>
-              <!-- <a ></a> -->
+           <a href="login.html"><button type="button" class="btn btn-danger">Login</button></a> 
+            <!-- <ul>
+             
               <a href="login.html" tabindex="0" class="btn btn-lg btn-danger" role="button" data-toggle="popover"
                 data-trigger="focus" title="Dismissible popover"
                 data-content="And here's some amazing content. It's very engaging. Right?">
                 Login</a>
-            </ul>
+            </ul> -->
           </div>
         </div>
       </nav>
@@ -158,15 +159,70 @@
       </div>
     </div>
 <br>
-<h2> <center> <u>Our Categories</u> </center></h2>
 
-    <div class="category-box">
+<div>
+  <div class="Our-Categories">
+    <h2>
+      <center> <u>Our Categories</u> </center>
+    </h2>
+  </div>
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="container">
+        <div class=" col-md-4 col-sm-12">
+
+          <div class="box1">
+            <div class="s1">
+              <h3 class="inside-category"> <a href="trekkcard.html"> Trekking</a></h3>
+            </div>
+          </div>
+        </div>
+
+        <div class=" col-md-4 col-sm-12 ">
+          <div class="box2">
+            <div class="s1">
+              <h3 class="inside-category"> <a href="trekkcard.html"> Camping</a></h3>
+            </div>
+          </div>
+        </div>
+
+        <div class=" col-md-4 col-sm-12">
+          <div class="box3">
+            <div class="s1">
+              <h3 class="inside-category"> <a href="trekkcard.html">Road Trip</a> </h3>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <div>
+    <div class="footer-header" id="firstfooter">
+      <div class="mail">Need help? call +91-88889 50537 || satenderkumar898@gmail.com
+      </div>
+
+      <!-- <div> &copy; 2023 Treeking India <cite title="Source Title"></cite></div> -->
+    </div>
+  </div>
+</div>
+
+
+
+<!-- <h2> <center> <u>Our Categories</u> </center></h2> -->
+
+    <!-- <div class="category-box">
       <div class="row">
         <div class=" col-md-4 col-12 content-category-box ">
           
           <div class="box1">
             <div class="s1">
-              <h3 class="inside-category">Trekking</h3>
+             <a href="trekkcard.html" style="color:white ;"><h3 class="inside-category">Trekking</h3></a> 
             </div>
           </div>
           
@@ -175,7 +231,8 @@
         <div class=" col-md-4 col-12 ">
           <div class="box2">
             <div class="s2">
-            <h3 class="inside-category">Camping</h3>
+              <a href="trekkcard.html" style="color:white ;"><h3 class="inside-category">Camping</h3></a> 
+            <h3 class="inside-category"></h3>
           </div>
           </div>
             
@@ -186,6 +243,7 @@
           
           <div class="box3">
             <div class="s3">
+               <a href="trekkcard.html" style="color:white ;"><h3 class="inside-category">Camping</h3></a>
               <h3 class="inside-category">Road Trip</h3>
             </div>
             
@@ -196,7 +254,7 @@
 
       </div>
 
-    </div>
+    </div> -->
 
 
 
