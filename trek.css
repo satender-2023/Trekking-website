@@ -135,14 +135,14 @@
 
 .User-name {
     width: 125px;
-    padding: 5px 0px 0px 22px;
+    padding: 5px 0px 0px 7px;
     line-height: 1.5;
 
 }
 
 .password {
     width: 125px;
-    padding: 30px 0px 0px 22px;
+    padding: 30px 0px 0px 7px;
     line-height: 1.5;
     margin: 0px 0px 0px 0px;
 
@@ -178,24 +178,24 @@
 }
 
 .regpswd {
-    padding: 29px 0px 23px 22px;
+    padding: 29px 0px 23px 7px;
     margin: 0px 0px 0px 0px;
 
 }
 
 .reg-conpswd {
-    padding: 21px 0px 0px 22px;
+    padding: 21px 0px 0px 7px;
     margin: 0px 0px 0px 0px;
 
 }
 
 .reg-address {
-    padding: 33px 0px 6px 22px;
+    padding: 33px 0px 6px 7px;
     margin: 0px 0px 0px 0px;
 }
 
 .reg-phone {
-    padding: 41px 0px 0px 22px;
+    padding: 41px 0px 0px 7px;
     margin: 0px 0px 0px 0px;
 
 }

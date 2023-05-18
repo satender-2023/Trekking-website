@@ -162,6 +162,8 @@
 
 <div>
   <div class="Our-Categories">
+    <marquee direction="right"><span id="time" style=""></span></marquee>
+    
     <h2>
       <center> <u>Our Categories</u> </center>
     </h2>
@@ -232,6 +234,18 @@
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+  <script>
+    function showTime() {
+      time = new Date()
+      console.log(time);
+      document.getElementById('time').innerHTML = time;
+    }
+    setInterval(showTime,1000);
+    
+    
+  </script>
+
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
     crossorigin="anonymous"></script>
