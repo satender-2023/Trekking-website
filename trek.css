@@ -469,7 +469,7 @@ border-top-right-radius: 20px;
 
 /* .btn btn-primary */
 
-.btn-primary{
+.btn-primary {
     border-radius: 25px;
 }
 
@@ -820,6 +820,11 @@ border-top-right-radius: 20px;
         margin: 3px 3px 13px 11px;
     }
 
+    .navbar-logo {
+        padding-bottom: 10px;
+        padding-top: 5px;
+    }
+
     #textareacol {
         max-height: 100px;
     }
@@ -1090,17 +1095,19 @@ border-top-right-radius: 20px;
         height: 51%;
     }
 
+
     .formbox {
-        width: 373px;
-        margin: 0px 32px;
+        width: 342px;
+        margin: 0px 51px;
     }
+
 
     .carousel-item {
         height: 533px;
     }
 
     .login {
-        width: 373px;
+        width: 341px;
     }
 
     .footer-header1 {
@@ -1129,7 +1136,7 @@ border-top-right-radius: 20px;
     .modal-content {
         background-color: #212529;
         color: #f8f9fa;
-        
+
     }
 
     .reg-Date {
@@ -1139,17 +1146,25 @@ border-top-right-radius: 20px;
 
     .User-name {
         width: 125px;
-        padding: 5px 0px 0px 22px;
+        padding: 5px 0px 0px 7px;
         line-height: 1.5;
     }
+    .password{
+        padding: 28px 0px 0px 7px; 
+    }
+    .regpswd {
+        padding: 29px 0px 23px 7px;
+    }
+    .reg-conpswd {
+        padding: 10px 0px 0px 7px;}
 
     .reg-address {
-        padding: 15px 0px 6px 22px;
+        padding: 30px 0px 6px 7px;
         margin: 0px 0px 0px 0px;
     }
 
     .reg-phone {
-        padding: 13px 0px 0px 22px;
+        padding: 26px 0px 0px 7px;
         margin: 0px 0px 0px 0px;
     }
 
