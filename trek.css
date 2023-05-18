@@ -468,10 +468,10 @@ border-top-right-radius: 20px;
 }
 
 /* .btn btn-primary */
-.btn{
+
+.btn-primary{
     border-radius: 25px;
 }
-
 
 /* card modal */
 
@@ -1108,7 +1108,7 @@ border-top-right-radius: 20px;
     }
 
     #reg-footer {
-        width: 15% !important;
+        width: 159% !important;
     }
 
     .nav-link {
