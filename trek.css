@@ -762,16 +762,21 @@ border-top-right-radius: 20px;
     font-weight: bold;
 
 }
+@media (min-width: 1200px) {
+    .trek-card{
+        max-width: 35%;
+    }
 
-
-
-
+}
 
 @media (min-width: 1025px) {
+    /* .trek-card{
+        max-width: 35%;
+    } */
     .footer-header1 {
         padding: 11px 0px 36px 143px;
     }
-
+    
     /* .adddtn {
         margin: 45px 0px -1px 388px;
     } */
@@ -832,7 +837,7 @@ border-top-right-radius: 20px;
     .modal {
 
         top: 64px;
-        height: 65%;
+        height: 90%;
     }
 
     .form-control {
