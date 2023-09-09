@@ -135,14 +135,14 @@
 
 .User-name {
     width: 125px;
-    padding: 5px 0px 0px 7px;
+    padding: 5px 0px 0px 22px;
     line-height: 1.5;
 
 }
 
 .password {
     width: 125px;
-    padding: 30px 0px 0px 7px;
+    padding: 30px 0px 0px 22px;
     line-height: 1.5;
     margin: 0px 0px 0px 0px;
 
@@ -178,24 +178,24 @@
 }
 
 .regpswd {
-    padding: 29px 0px 23px 7px;
+    padding: 29px 0px 23px 22px;
     margin: 0px 0px 0px 0px;
 
 }
 
 .reg-conpswd {
-    padding: 21px 0px 0px 7px;
+    padding: 21px 0px 0px 22px;
     margin: 0px 0px 0px 0px;
 
 }
 
 .reg-address {
-    padding: 33px 0px 6px 7px;
+    padding: 33px 0px 6px 22px;
     margin: 0px 0px 0px 0px;
 }
 
 .reg-phone {
-    padding: 41px 0px 0px 7px;
+    padding: 41px 0px 0px 22px;
     margin: 0px 0px 0px 0px;
 
 }
@@ -469,7 +469,7 @@ border-top-right-radius: 20px;
 
 /* .btn btn-primary */
 
-.btn-primary {
+.btn-primary{
     border-radius: 25px;
 }
 
@@ -762,21 +762,16 @@ border-top-right-radius: 20px;
     font-weight: bold;
 
 }
-@media (min-width: 1200px) {
-    .trek-card{
-        max-width: 35%;
-    }
 
-}
+
+
+
 
 @media (min-width: 1025px) {
-    /* .trek-card{
-        max-width: 35%;
-    } */
     .footer-header1 {
         padding: 11px 0px 36px 143px;
     }
-    
+
     /* .adddtn {
         margin: 45px 0px -1px 388px;
     } */
@@ -825,11 +820,6 @@ border-top-right-radius: 20px;
         margin: 3px 3px 13px 11px;
     }
 
-    .navbar-logo {
-        padding-bottom: 10px;
-        padding-top: 5px;
-    }
-
     #textareacol {
         max-height: 100px;
     }
@@ -837,7 +827,7 @@ border-top-right-radius: 20px;
     .modal {
 
         top: 64px;
-        height: 90%;
+        height: 65%;
     }
 
     .form-control {
@@ -1100,27 +1090,25 @@ border-top-right-radius: 20px;
         height: 51%;
     }
 
-
     .formbox {
-        width: 342px;
-        margin: 0px 51px;
+        width: 373px;
+        margin: 0px 32px;
     }
-
 
     .carousel-item {
         height: 533px;
     }
 
     .login {
-        width: 341px;
+        width: 373px;
     }
 
     .footer-header1 {
-        width: 163%;
+        width: 159%;
     }
 
     #reg-footer {
-        width: 163% !important;
+        width: 159% !important;
     }
 
     .nav-link {
@@ -1141,7 +1129,7 @@ border-top-right-radius: 20px;
     .modal-content {
         background-color: #212529;
         color: #f8f9fa;
-
+        
     }
 
     .reg-Date {
@@ -1151,25 +1139,17 @@ border-top-right-radius: 20px;
 
     .User-name {
         width: 125px;
-        padding: 5px 0px 0px 7px;
+        padding: 5px 0px 0px 22px;
         line-height: 1.5;
     }
-    .password{
-        padding: 28px 0px 0px 7px; 
-    }
-    .regpswd {
-        padding: 29px 0px 23px 7px;
-    }
-    .reg-conpswd {
-        padding: 10px 0px 0px 7px;}
 
     .reg-address {
-        padding: 30px 0px 6px 7px;
+        padding: 15px 0px 6px 22px;
         margin: 0px 0px 0px 0px;
     }
 
     .reg-phone {
-        padding: 26px 0px 0px 7px;
+        padding: 13px 0px 0px 22px;
         margin: 0px 0px 0px 0px;
     }
 
